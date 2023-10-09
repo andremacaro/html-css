@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+            background-color: rgb(117, 117, 117);
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 2px;
+            border-radius: 25px 25px 25px 25px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 25px;
+        }
+
+        #art1 {
+            background-color: rgb(177, 177, 177);
+            padding: 10px;         
+        }
+
+        #art2 {
+            background-color: rgb(177, 177, 177);
+            padding: 10px 10px 25px 10px;
+            margin-top: 10px;
+            border-radius: 0px 0px 25px 25px;
+        }
+
+        article > aside {
+            background-color: rgb(131, 130, 130);
+        }
+
+        footer {
+            text-align: center;
+            color: aliceblue;
+            background-color: black;
+            padding: 7px;
+                
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Site de notícias</h1> 
+        <nav>    
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>    
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticiasItalia">
+            <article id="art1">
+                <h2>Notícia sobre a Itália</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos in aliquid esse, quis vitae temporibus non aut autem modi! Accusantium omnis nihil porro consequatur ipsam, qui dolor error obcaecati eos!</p>
+                <aside>
+                    <p>Artigo escrito por Deco</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="noticiasEspanha">
+            <article id="art2">
+                <h2>Notícia sobre a Espanha</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis rem ratione amet obcaecati quibusdam corporis repellat commodi, itaque repellendus minima ullam accusantium distinctio nemo neque natus harum modi, vitae impedit.</p>
+                <aside>Artigo escrito por Deco</aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados </p>
+    </footer>
+
+    <div id="bola"></div>
+
+</body>
+</html>

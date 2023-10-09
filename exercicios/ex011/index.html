@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>   <!-- preload = metadata vai carregar apenas as informações sobre o arquivo (tamanho, tempo, informações de direitos, etc)-->
+                                                        <!-- preload = none não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicia a reprodução-->
+                                                        <!-- auto (padrão) vai carregar o arquivo de áudio inteiro assim que a págona for carregada, mesmo que o usuário nunca aperte o play-->
+        <source src="midia/lawrence.mp3" type="audio/mp3">
+        <source src="midia/lawrence.ogg" type="audio/ogg">
+        <source src="midia/lawrence.wav" type="audio/wav">
+        <!--Se não conseguir reproduzir em MP3 ele vai para o próximo q no caso é OGG-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/lawrence.mp3">Clique aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+    <!-- MP3 WAV OGG-->
+</body>
+</html>
