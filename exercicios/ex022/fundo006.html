@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - background 
+                color > image > position >/> size > repeat > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
         }
 
         main{
             background-color: white;
-            width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
             border-radius: 15px;
+            max-width: 400px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quaerat ad assumenda distinctio doloremque. Alias, suscipit! Eveniet earum natus nam distinctio numquam, ex quia saepe labore est magni corrupti beatae!
+        Harum deleniti obcaecati aliquam! Voluptatum officiis nesciunt impedit necessitatibus quidem. Magni corporis, id corrupti aliquid, expedita explicabo qui fugit voluptatibus vel deserunt temporibus dicta est incidunt velit nesciunt ipsum accusamus.
+        Aliquam, amet fugiat doloremque mollitia repudiandae optio dolore voluptas itaque excepturi sit laborum eaque quam modi enim ducimus, labore ad nemo dignissimos quos quidem. Incidunt, aperiam. Quo molestias consectetur officiis!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quaerat ad assumenda distinctio doloremque. Alias, suscipit! Eveniet earum natus nam distinctio numquam, ex quia saepe labore est magni corrupti beatae!
+        Harum deleniti obcaecati aliquam! Voluptatum officiis nesciunt impedit necessitatibus quidem. Magni corporis, id corrupti aliquid, expedita explicabo qui fugit voluptatibus vel deserunt temporibus dicta est incidunt velit nesciunt ipsum accusamus.
+        Aliquam, amet fugiat doloremque mollitia repudiandae optio dolore voluptas itaque excepturi sit laborum eaque quam modi enim ducimus, labore ad nemo dignissimos quos quidem. Incidunt, aperiam. Quo molestias consectetur officiis!</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quaerat ad assumenda distinctio doloremque. Alias, suscipit! Eveniet earum natus nam distinctio numquam, ex quia saepe labore est magni corrupti beatae!
         Harum deleniti obcaecati aliquam! Voluptatum officiis nesciunt impedit necessitatibus quidem. Magni corporis, id corrupti aliquid, expedita explicabo qui fugit voluptatibus vel deserunt temporibus dicta est incidunt velit nesciunt ipsum accusamus.
         Aliquam, amet fugiat doloremque mollitia repudiandae optio dolore voluptas itaque excepturi sit laborum eaque quam modi enim ducimus, labore ad nemo dignissimos quos quidem. Incidunt, aperiam. Quo molestias consectetur officiis!</p>
