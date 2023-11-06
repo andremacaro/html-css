@@ -12,11 +12,18 @@
         table{
             width: 600px;
             border-collapse: collapse;
+            position: relative;
         }
 
         thead, tfoot{
             background-color: rgb(56, 56, 56);
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(56, 56, 56);
         }
 
         tbody > tr:nth-child(odd){
@@ -206,9 +213,9 @@
         </tbody>
 
         <tfoot>
-            <th scope="row">Total de Habitantes</th>
-            <td class="num"><strong>203 062 512</strong></td>
+            <th scope="row" colspan="2">Total de Habitantes</th>
+            <td class="num" colspan="1"><strong>203 062 512</strong></td>
         </tfoot>
-    </table>        
+    </table>       
 </body>
 </html>
