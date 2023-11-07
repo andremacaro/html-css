@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border: 1px  solid black;
+}
+
+.container > h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.campo1{
+    background-color: beige;
+    padding: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+input{
+    width: 33%;
+    height: 100%;
+}
+
+
+.campo2{
+    background-color: brown;
+    padding: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+.btn{
+    background-color: blueviolet;
+    padding: 10px 0px 10px 0px;
+}
+
+#btn-calcular{
+    background-color: azure;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn-calcular:hover{
+    background-color: rgba(240, 255, 255, 0.74);
+}
