@@ -11,10 +11,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(202, 201, 201);
 }
 
 .container{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 500px;
     height: 500px;
     padding: 20px;
@@ -24,10 +25,11 @@ body{
 .container > h1{
     text-align: center;
     font-size: 2.5em;
+    padding: 30px;
 }
 
 .campo1{
-    background-color: beige;
+    
     padding: 10px 0px 10px 0px;
     height: 60px;
 }
@@ -35,28 +37,54 @@ body{
 input{
     width: 33%;
     height: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
 
 .campo2{
-    background-color: brown;
+    
     padding: 10px 0px 10px 0px;
     height: 60px;
 }
 
 .btn{
-    background-color: blueviolet;
     padding: 10px 0px 10px 0px;
 }
 
 #btn-calcular{
-    background-color: azure;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
     padding: 10px;
     width: 25%;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 75px;
 }
 
 #btn-calcular:hover{
-    background-color: rgba(240, 255, 255, 0.74);
+    background-color: rgb(81, 138, 243);
+}
+
+.campoMedia{
+}
+
+#media{
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+.campoSituacao{
+    padding-top: 10px;
+}
+
+#situacao{
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+    
 }

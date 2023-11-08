@@ -11,18 +11,18 @@
         <h1>Calcular Média</h1>
         <div class="campo1">
             <label for="nota1">Nota 1:</label>
-            <input type="number" name="nota1" id="nota1" min="0.0" max="10.0">
+            <input type="number" name="nota1" id="nota1" step="0.1">
         </div>
         <div class="campo2">
             <label for="nota2">Nota 2:</label>
-            <input type="number" name="nota2" id="nota2" min="0.0" max="10.0">
+            <input type="number" name="nota2" id="nota2" step="0.1">
         </div>
         <div class="btn">
             <button id="btn-calcular" type="submit">Calcular</button>
         </div>
         <div class="campoMedia">
-            <label for="media">Média:</label>
-            <input type="number" name="media" id="media">
+            <label for="media">Média:</label><br>
+            <input type="number" name="media" id="media" readonly>
         </div>
         <div class="campoSituacao">
             <input type="text" name="situacao" id="situacao" placeholder="Situação Final" readonly>
