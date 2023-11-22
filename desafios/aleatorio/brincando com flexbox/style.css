@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pai{
+    display: flex;
+    min-height: 100vh;
+}
+
+.cores{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+
+.cor1{
+    background-color: aquamarine;
+}
+.cor2{
+    background-color: rgb(120, 181, 231);
+}
+.cor3{
+    background-color: rgb(230, 181, 230);
+}
+.cor4{
+    background-color: gray;
+}
+.cor5{
+    background-color: rgb(255, 230, 0);
+}
+.cor6{
+    background-color: orange;
+}
+.cor7{
+    background-color: rgb(221, 49, 84);
+}
+.cor8{
+    background-color: lightgray;
+}
+.cor9{
+    background-color: lightgreen;
+}
+.cor10{
+    background-color: rgb(47, 167, 127);
+}    
+
+.pai{
+    border: 10px solid saddlebrown;
+    align-content: ;
+}
+
