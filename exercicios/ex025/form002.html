@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusuario"></label>
+            <input type="text" name="usuario" id="iusuario" size="8" required minlength="5" maxlength="10">
+        </p>
+        <p>
+            <label for="isenha"></label>
+            <input type="password" name="senha" size="8" id="isenha" required minlength="8">
+        </p>
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </P>
+    </form>
+</body>
+</html>
