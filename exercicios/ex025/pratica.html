@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática Form</title>
+    <style>
+        
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Receituário</legend>
+
+            <p>
+                <label for="iusuario">Usuário:</label>
+                <input type="text" name="usuario" id="iusuario" required autocomplete="name" size="25">
+            </p>
+
+            <p>
+                <label for="imae">Mãe:</label>
+                <input type="text" name="mae" id="imae" required size="25" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="iums">UMS:</label>
+                <select name="ums" id="iums" required >
+                    <option value="UMS Taiz Viviane Machado">UMS Taiz Viviane Machado</option>
+                    <option value="UMS Oswaldo Cruz">UMS Oswaldo Cruz</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="iendereco">Endereço:</label>
+                <input type="text" name="endereco" id="iendereco" required size="25" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="imunicipio">Município de Residência:</label>
+                <input type="text" name="municipio" id="imunicipio" required size="25" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="inasc">Dt. de Nascimento:</label>
+                <input type="date" name="nascimento" id="inasc" required>
+            </p>
+
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="telefone" id="itel" placeholder="(xx) xxxxx-xxxx" required size="25">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
